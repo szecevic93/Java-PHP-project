@@ -1,3 +1,6 @@
 <?php
 
-echo "Da li ovo radi?";
+echo "Unesite broj: ";
+$x = readline();
+
+echo "Kvadrat: ", pow($x, 2);
